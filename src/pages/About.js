@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import <JerryProfilePic> from "../assests/JerryProfilePic.jpg";
+import JerryProfilePic from "../assests/JerryProfilePic.jpg";
 import "./About.css";
 export default class About extends Component {
   render() {
@@ -10,7 +10,7 @@ export default class About extends Component {
       <div className="centered">
         <img 
           className="profile_image"
-          src = "JerryProfilePic.jpg"
+          src = {JerryProfilePic}
           alt="Profile Pic"
           ></img>
       </div>
