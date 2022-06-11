@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AddTodo from '../component/AddTodo';"../component/AddTodo" ;
 import Todos from '../component/todos';"../component/todos";
 import "../pages/Home.css"
+import "./About.js";
 class Home extends Component {
   // A default state of this component with an empty list of todos.
   constructor() {
